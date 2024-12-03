@@ -18,7 +18,7 @@
 
 ![towatchlist](towatchlist_dtb.png)
 
-### Login display (always direct to until apikey is get)
+### Login display (always direct to until apikey is get or refresh website)
 
 ![login](login.png)
 ![login](login2.png)
@@ -82,3 +82,8 @@
 ### Well, when a movie is in watched list, it can not be added to towatchlist again from home, tickbox disable
 
 ![disable tickbox](addTWLdis.png)
+
+### Remove movies
+
+![remove](rm1.png)
+![remove](rm2.png)
