@@ -1,0 +1,20 @@
+# Anh Tuan Hoang 0777768 Assignment #3 TESTING
+
+## Data base creation : all I have used for database is in Assignment 2 database.For this asssignment I test with user_id 9999
+
+### MOVIES table
+
+![movies](MOVIES_dtb.png)
+
+### MOVIES_POSTER link table
+
+![movies](MOVIES_Poster_dtb.png)
+
+### completedWatchList table (initial empty)
+
+![completedwatchlist](completedwatchlist_dtb.png)
+
+### toWatchList table (initial empty)
+
+![towatchlist](towatchlist_dtb.png)
+
