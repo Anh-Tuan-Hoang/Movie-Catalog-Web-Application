@@ -68,3 +68,13 @@
 ![search](search1.png)
 ![search](search2.png)
 ![search](search3.png)
+
+### Movies add from towatchlist to watchedlist (when add button is clicked, the movie is moved from towatchlist to watchedlist with default score of 2)
+
+![watchedmark](watchedmark1.png)
+![watchedmark](watchedmark2.png)
+![watchedmark](watchedmark3.png)
+
+### Well, when a movie is in watched list, it can not be added to towatchlist again from home, tickbox disable
+
+![disable tickbox](addTWLdis.png)
