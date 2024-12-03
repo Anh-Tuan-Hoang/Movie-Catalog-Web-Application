@@ -97,3 +97,13 @@
 ### Update watched time error when new time is less than old time (Avatar from 14 to 10)
 
 ![updateWT_error](updateWT_error.png)
+
+### Update score
+
+![updateScore](score1.png)
+![updateScore](score2.png)
+![updateScore](score3.png)
+
+### Update score: when score is less than 1 or more than 10, error message is shown
+
+![updateScore](score_error.png)
