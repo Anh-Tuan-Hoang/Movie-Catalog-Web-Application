@@ -46,6 +46,10 @@
 ![priorityTWLupdate](pri_upd1.png)
 ![priorityTWLupdate](pri_upd2.png)
 
+### Priority update error when priority is not in range 1-10
+
+![priorityTWLupdateError](pri_upd_error.png)
+
 ### Priority sort (befor after tickbox is ticked)
 
 ![priorityTWLsort](sort_pri_before.png)
