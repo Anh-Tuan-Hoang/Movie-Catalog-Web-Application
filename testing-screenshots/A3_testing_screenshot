@@ -87,3 +87,13 @@
 
 ![remove](rm1.png)
 ![remove](rm2.png)
+
+### Update watched time
+
+![updateWT](updateWT1.png)
+![updateWT](updateWT2.png)
+![updateWT](updateWT3.png)
+
+### Update watched time error when new time is less than old time (Avatar from 14 to 10)
+
+![updateWT_error](updateWT_error.png)
