@@ -104,6 +104,11 @@
 ![updateScore](score2.png)
 ![updateScore](score3.png)
 
-### Update score: when score is less than 1 or more than 10, error message is shown
+### Update score: when score is less than 1 or more than 10, error message is shown.Movies terminator
 
 ![updateScore](score_error.png)
+
+### Rating sort (befor after tickbox is ticked)
+
+![ratingTWLsort](sort_rate_before.png)
+![ratingTWLsort](sort_rate_after.png)
