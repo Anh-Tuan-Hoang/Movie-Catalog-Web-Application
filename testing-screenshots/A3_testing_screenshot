@@ -35,8 +35,13 @@
 
 ![Watchedlist initial](watchedlist_init.png)
 
-### Add to watchlist test (when at least 1 tickbox is selected, the update button is appeared, the tickbox is disable when the movies is seen-we will test this later)
+### Add to watchlist test (when at least 1 tickbox is selected, the update button is appeared, the tickbox is disable when the movies is seen-we will test this later).Default priority is 5.
 
 ![testaddTWL](addTWL1.png)
 ![testaddTWL](addTWL2.png)
 ![testaddTWL](addTWL3.png)
+
+### Priority update
+
+![priorityTWLupdate](pri_upd1.png)
+![priorityTWLupdate](pri_upd2.png)
