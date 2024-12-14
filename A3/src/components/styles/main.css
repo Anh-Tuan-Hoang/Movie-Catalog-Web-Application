@@ -1,0 +1,492 @@
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Background GIF Styling */
+body {
+  background: url('https://media.giphy.com/media/tmH5eUto7WumOdTvRG/giphy.gif') no-repeat center center fixed;
+  background-size: cover; /* Ensures the GIF covers the entire screen */
+}
+
+.no-movies-message {
+  font-size: 24px; /* Larger text */
+  font-weight: bold; /* Bold font */
+  color: #ff6f61; /* Vibrant color (coral) */
+  text-align: center; /* Center the message */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #fff4d1; /* Light yellow background */
+  border: 2px dashed #ff6f61; /* Dashed border for emphasis */
+  border-radius: 8px; /* Rounded corners */
+  margin-top: 50px; /* Add space above the message */
+}
+
+/* NavBar Styles */
+.navbar {
+  width: 200px;
+  background-color: #007bff; /* Blue background */
+  padding: 300px 20px 20px 20px;
+  position: fixed;
+  height: 100%; /* Full height */
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.nav-item a {
+  font-size: 22px;
+  color: #ffffff; /* White text */
+  text-decoration: none; /* Remove underline */
+  display: flex; /* Flexbox for icon and text */
+  align-items: center; /* Center items vertically */
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+.nav-item .fa {
+  margin-right: 20px; /* Space between icon and text */
+}
+
+.icon {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+
+
+.sign-out {
+  margin-top: auto; /* Push Sign Out button to the bottom */
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 20px 20px 20px;
+  background-color: transparent;
+  position: fixed;
+  width: calc(100% - 220px); /* Adjusting width to leave space for the sidebar */
+  top: 40px;
+  left: 269px;
+  z-index: 100;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 30px; /* Increase the gap between elements */
+  width: 100%;
+  padding: 10px;
+}
+
+.search-bar input {
+  padding: 12px;
+  padding-right: 100px;
+  margin-right: 663px; /* Add more space to the right of the search bar */
+}
+
+.search-bar select {
+  padding: 12px;
+  padding-right: 70px;
+  margin-left: 202px; /* Ensure no unnecessary left margin */
+}
+
+
+/* Main content area */
+.main-content {
+  margin-top: 120px; /* Adjust the content position below the fixed header */
+  padding: 20px;
+  padding-left: 300px;
+}
+
+/* Movie cards layout */
+.movie-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.movie-card {
+  background-color: #f0f0f0; /* Light gray */
+  border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  text-align: center; /* Centers the text */
+}
+
+/* Fixed elements at the top */
+.search-bar input {
+  width: 300px;
+}
+
+/* Movie card text and button alignment */
+.movie-card h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.movie-card input {
+  margin-top: 10px;
+}
+
+/* Adjust for better alignment */
+.search-bar select {
+  min-width: 150px;
+}
+
+.search-bar div {
+  display: flex;
+  align-items: center;
+}
+.show-watched-label {
+  padding-bottom: 30px;
+}
+
+.show-watched-label input {
+  margin-right: 5px;
+}
+
+.add-to-watchlist {
+  margin-bottom: 20px; /* Space between the checkbox and the View Details button */
+}
+
+.priority-input input {
+  width: 50px; /* Adjust the width to make it smaller */
+  padding: 5px; /* Add some padding for better appearance */
+  text-align: center; /* Center-align the text */
+  font-size: 14px; /* Adjust the font size */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 4px; /* Add rounded corners */
+  margin-bottom: 20px;
+}
+.times-watched-input input {
+  width: 50px; /* Adjust the width to make it smaller */
+  padding: 5px; /* Add some padding for better appearance */
+  text-align: center; /* Center-align the text */
+  font-size: 14px; /* Adjust the font size */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 4px; /* Add rounded corners */
+  margin-bottom: 20px;
+}
+.score-input input {
+  width: 50px; /* Adjust the width to make it smaller */
+  padding: 5px; /* Add some padding for better appearance */
+  text-align: center; /* Center-align the text */
+  font-size: 14px; /* Adjust the font size */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 4px; /* Add rounded corners */
+  margin-bottom: 20px;
+}
+
+/* Styling for the 'Watched' label */
+.add-to-watchlist span {
+  color: #28a745; /* Green color for 'Watched' */
+  font-weight: bold;
+  margin-left: 10px; /* Add some space between the checkbox and the 'Watched' label */
+}
+
+/* Error Page Styles */
+.error-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8d7da; /* Light red background */
+}
+
+.error-page h1 {
+  color: #721c24; /* Dark red text for error message */
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.error-page button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff; /* Blue background for button */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.error-page button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Login Styles */
+.login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8d7da; /* Light red background */
+}
+
+.login .login-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 15%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login .login-container h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333333; /* Dark text for contrast */
+}
+
+.login .form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.login .form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #555555; /* Subtle text color */
+  margin-bottom: 0.5rem;
+}
+
+.login .form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #cccccc; /* Light border */
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.login .form-group input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+}
+
+.login .error {
+  color: #e74c3c; /* Red text for error messages */
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.login button[type="submit"] {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff; /* Blue button background */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.login button[type="submit"]:focus {
+  outline: none;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login .login-container {
+    padding: 1.5rem;
+  }
+
+  .login .login-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .login button[type="submit"] {
+    font-size: 0.9rem;
+  }
+}
+.home-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+/* Search Bar and Update Button Styling */
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+
+.update-watchlist-button {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right :800px;
+  padding: 20px 50px;
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: background-color 0.3s ease;
+  z-index: 100; /* Ensure it is above other elements */
+}
+
+.update-watchlist-button:hover {
+  background-color: red; /* Darker blue on hover */
+}
+
+.save-all-changes-button {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right :800px;
+  padding: 20px 50px;
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: background-color 0.3s ease;
+  z-index: 100; /* Ensure it is above other elements */
+}
+
+.save-all-changes-button:hover {
+  background-color: red; /* Darker blue on hover */
+}
+
+
+
+.save-scores-button {
+  position: fixed;
+  bottom: 20px; /* Distance from the bottom */
+  right :800px;
+  padding: 20px 50px;
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: background-color 0.3s ease;
+  z-index: 100; /* Ensure it is above other elements */
+}
+
+.save-scores-button:hover {
+  background-color: red; /* Darker blue on hover */
+}
+
+
+
+.view-details {
+  background-color: #2a9d8f; /* Vibrant Green */
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px; /* Adjust font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.view-details:hover {
+  background-color: #21867a; /* Darker green on hover */
+  transform: translateY(-2px); /* Slight upward movement on hover */
+}
+
+.view-details:active {
+  background-color: #003f7f; /* Even darker blue for active state */
+  transform: translateY(0); /* Return to original position when clicked */
+}
+
+.view-details:disabled {
+  background-color: #cccccc; /* Gray for disabled state */
+  cursor: not-allowed; /* Disabled cursor */
+}
+
+
+
+/* Movie Details Page Styling */
+.movie-details-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 60%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-poster-large {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.movie-details-content {
+  flex: 1;
+}
+
+.movie-details-content h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.movie-details-content p {
+  margin: 5px 0;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
