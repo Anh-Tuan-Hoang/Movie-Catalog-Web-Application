@@ -28,6 +28,9 @@ Users can log in with a username and password. An API key is retrieved and store
 ### Movie Catalogue
 ![Catalogue Screenshot](./testing-screenshots/catalogue.png)  
 Displays a list of movies with posters and titles. Includes search and filter functionality. Movies can be quickly added to the watchlist.
+### Movie Catalogue
+![Detail Screenshot](./testing-screenshots/details.png)  
+Displays detail of a movie. Includes overview,genres,rating and reasle date.
 
 ### Watchlist
 ![Watchlist Screenshot](./testing-screenshots/watchlist.png)  
@@ -44,3 +47,23 @@ Shows finished movies with score and date watched. Users can update re-watch cou
 - Built with React and Vite  
 - Uses a REST API for authentication and data  
 - Deployed on a live server 
+
+
+## File structure
+Movie-Catalog-Web-Application/
+└── Movie Catalog Web Project/
+    ├── src/
+    │   └── components/
+    │       ├── login/
+    │       │   ├── AuthContext.jsx
+    │       │   ├── Login.jsx
+    │       │   └── ProtectedRoute.jsx
+    │       ├── routes/
+    │       │   ├── Error.jsx
+    │       │   ├── Home.jsx
+    │       │   ├── ToWatchList.jsx
+    │       │   ├── WatchedList.jsx
+    │       │   └── routes.jsx
+    │       ├── NavBar.jsx
+    │       └── MovieDetails.jsx
+    └── other project files
