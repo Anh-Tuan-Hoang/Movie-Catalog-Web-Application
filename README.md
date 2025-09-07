@@ -22,7 +22,7 @@ This project is a React single-page application (SPA) that allows users to brows
 ## Interfaces
 
 ### Login Page
-![Login Screenshot](./testing-screenshots/login.png)  
+![Login Screenshot](./testing-screenshots/Login.png)  
 Users can log in with a username and password. An API key is retrieved and stored globally with React Context.
 
 ### Movie Catalogue
