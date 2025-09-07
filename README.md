@@ -50,20 +50,4 @@ Shows finished movies with score and date watched. Users can update re-watch cou
 
 
 ## File structure
-Movie-Catalog-Web-Application/
-└── Movie Catalog Web Project/
-    ├── src/
-    │   └── components/
-    │       ├── login/
-    │       │   ├── AuthContext.jsx
-    │       │   ├── Login.jsx
-    │       │   └── ProtectedRoute.jsx
-    │       ├── routes/
-    │       │   ├── Error.jsx
-    │       │   ├── Home.jsx
-    │       │   ├── ToWatchList.jsx
-    │       │   ├── WatchedList.jsx
-    │       │   └── routes.jsx
-    │       ├── NavBar.jsx
-    │       └── MovieDetails.jsx
-    └── other project files
+![File Structure Screenshot](./testing-screenshots/fs.png)
