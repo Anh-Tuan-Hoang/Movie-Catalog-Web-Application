@@ -43,12 +43,4 @@ Shows finished movies with score and date watched. Users can update re-watch cou
 
 - Built with React and Vite  
 - Uses a REST API for authentication and data  
-- Deployed on a live server  
-
-Live demo: [Link to application](https://loki.trentu.ca/~anhtuanhoang/assn3)  
-Repository: [GitHub Repository](https://github.com/Anh-Tuan-Hoang/test)
-
----
-
-## Repository Structure
-
+- Deployed on a live server 
