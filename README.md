@@ -50,4 +50,4 @@ Shows finished movies with score and date watched. Users can update re-watch cou
 
 
 ## File structure
-![File Structure Screenshot](./testing-screenshots/fs.png)
+![File Structure Screenshot](./testing-screenshots/filestructure.png)
